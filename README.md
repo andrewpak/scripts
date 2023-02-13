@@ -1,3 +1,3 @@
-# gentoo-scripts
+# scripts
 
 
