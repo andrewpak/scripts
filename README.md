@@ -1,0 +1,1 @@
+# gentoo-crypt-install-scripts
