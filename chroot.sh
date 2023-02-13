@@ -5,6 +5,7 @@
 fdisk /dev/sda
 mkfs.vfat -F 32 /dev/sda1
 cryptsetup luksFormat /dev/sda2
+cryptsetup open /dev/sda2 gentoocrypt
 pvcreate /dev/mapper/gentoocrypt
 vgcreate vg0 /dev/mapper/gentoocrypt
 lvcreate -L 8G vg0 -n swap
